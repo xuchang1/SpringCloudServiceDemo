@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: consul-consumer
+  cloud:
+    consul:
+      # consul服务的ip、port
+      host: localhost
+      port: 8500
+      discovery:
+        # 消费者，不将自身信息注册到Consul上
+        register: false
+server:
+  port: 9091

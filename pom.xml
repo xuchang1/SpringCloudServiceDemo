@@ -18,6 +18,7 @@
     <modules>
         <module>sleuth-zipkin-demo</module>
         <module>eureka-demo</module>
+        <module>consul-demo</module>
     </modules>
 
     <properties>
