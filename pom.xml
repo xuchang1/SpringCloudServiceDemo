@@ -19,6 +19,7 @@
         <module>sleuth-zipkin-demo</module>
         <module>eureka-demo</module>
         <module>consul-demo</module>
+        <module>ribbon-feign-demo</module>
     </modules>
 
     <properties>
@@ -27,14 +28,13 @@
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
     </properties>
 
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--            <version>2.3.12.RELEASE</version>-->
-<!--            <type>pom</type>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>

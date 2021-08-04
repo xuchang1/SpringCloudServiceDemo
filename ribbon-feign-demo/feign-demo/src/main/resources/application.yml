@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: consul-provider
+  cloud:
+    consul:
+      # consul服务的ip、port
+      host: localhost
+      port: 8500
+      discovery:
+        register: false
+server:
+  port: 9091
