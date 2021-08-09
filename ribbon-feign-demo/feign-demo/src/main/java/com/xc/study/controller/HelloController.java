@@ -31,7 +31,6 @@ public class HelloController {
 
 	@PostMapping("post1")
 	public String post1(@RequestBody User user){
-		String result = myFeignClient.post1(user);
-		return result;
+		return myFeignClient.post1(user);
 	}
 }

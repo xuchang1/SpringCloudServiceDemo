@@ -10,3 +10,6 @@ spring:
         register: false
 server:
   port: 9091
+logging:
+  level:
+    com.xc.study: debug
