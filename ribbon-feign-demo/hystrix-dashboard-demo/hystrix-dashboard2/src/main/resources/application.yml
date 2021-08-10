@@ -1,19 +1,13 @@
 spring:
   application:
-    name: consul-provider
+    name: hystrix-dashboard2
   cloud:
     consul:
       # consul服务的ip、port
       host: localhost
       port: 8500
-      discovery:
-        register: false
 server:
-  port: 9091
-logging:
-  level:
-    com.xc.study: debug
-
+  port: 9902
 feign:
   hystrix:
     enabled: true

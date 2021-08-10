@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: turbine
+  cloud:
+    consul:
+      # consul服务的ip、port
+      host: localhost
+      port: 8500
+server:
+  port: 8888
+feign:
+  hystrix:
+    enabled: true
+turbine:
+  app-config: hystrix-dashboard1,hystrix-dashboard2
+  aggregator:
+    cluster-config: default
+  cluster-name-expression: new String("default")
+

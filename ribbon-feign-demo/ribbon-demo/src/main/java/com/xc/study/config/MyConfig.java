@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 // 在集成了服务中心的情况下，使用配置文件中自定义的服务列表，该处RibbonClient注解的定义是必须的
-@RibbonClient(name = "provider", configuration = RibbonClientConfiguration.class)
+//@RibbonClient(name = "provider", configuration = RibbonClientConfiguration.class)
 public class MyConfig {
 
     @Bean
