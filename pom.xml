@@ -20,6 +20,7 @@
         <module>eureka-demo</module>
         <module>consul-demo</module>
         <module>ribbon-feign-demo</module>
+        <module>gateway-demo</module>
     </modules>
 
     <properties>
